@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Back</title>
+    <style>
+      /* Reset default margin and padding */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Courier New", Courier, monospace;
+        background-color: #f1f1f1;
+      }
+
+      .fullpage {
+        text-align: center; /* Center align content */
+        padding: 100px 0; /* Add vertical spacing */
+      }
+
+      .fullpage h1 {
+        font-size: 32px;
+        color: #007bff;
+      }
+
+      #cameraFeed {
+        width: 100%;
+        max-width: 800px; /* Limit video width */
+        display: block; /* Remove extra spacing */
+        margin: 0 auto; /* Center align video */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+    <script src="validation.js"></script>
+  </head>
+  <body>
+    <div class="fullpage">
+      <h1>WELCOME BACK</h1>
+    </div>
+    <video id="cameraFeed" autoplay></video>
+  </body>
+</html>

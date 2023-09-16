@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission</title>
+    <link rel="stylesheet" type="text/css" href="Css.css" />
+  </head>
+  <body>
+    <div class="form-box">
+      <form>
+        <h1>Admission Form</h1>
+        <br />
+        <div class="input-type">
+          <label for="firstname">Firstname</label>
+          <input type="text" placeholder="Firstname" id="firstname" /> <br />
+          <label for="lastname">Lastname</label>
+          <input
+            type="text"
+            placeholder="Lastname"
+            id="lastname"
+            required
+          /><br />
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender" class="selectgender" required>
+            <option value="" disabled selected>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="date">DOB</label>
+          <input
+            type="date"
+            placeholder="Date of Birthday"
+            id="date"
+            required
+          />
+          <br />
+          <label for="address">Address</label>
+          <input
+            type="text"
+            placeholder="Address"
+            required
+            id="address"
+          /><br />
+          <label for="number">Contact Number</label>
+          <input
+            type="number"
+            placeholder="Contact Number"
+            required
+            id="number"
+          /><br />
+          <label for="parent">Parent</label>
+          <input
+            type="text"
+            placeholder="Parent/Guardian Name"
+            required
+            id="parent"
+          /><br />
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            placeholder="Email Address"
+            id="gmails"
+            required
+          /><br />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Provide your password"
+            id="pswd"
+          /><br />
+          <label for="password">Confirm password</label>
+          <input
+            type="password"
+            placeholder="Confirm your password"
+            id="pswds"
+          /><br />
+        </div>
+        <br />
+        <button disabled id="btn" name="submit">Submit</button>
+        <a href="index.html" class="back">Login here</a>
+      </form>
+    </div>
+  </body>
+  <script defer src="validation.js"></script>
+</html>

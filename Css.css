@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+.form-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+  align-items: center;
+}
+
+.form-box h1 {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.form-box label {
+  display: block;
+
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.form-box input {
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-basis: 65%;
+  padding: 8px;
+}
+
+.form-box button[name="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-box button[name="submit"]:hover {
+  background-color: #0056b3;
+}
+.form-box {
+  background-color: rgb(93, 68, 117);
+  left: 30%;
+  margin: 0 auto;
+}
+.selectgender {
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-basis: 65%;
+  padding: 8px;
+}
+.back {
+  color: whitesmoke;
+}
+.back:hover {
+  color: rgb(216, 91, 112);
+}
